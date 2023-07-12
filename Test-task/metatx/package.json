@@ -1,0 +1,46 @@
+{
+  "name": "metatx",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Pascal Marco Caversaccio, Apps with love AG",
+  "description": "A smart contract for extensible meta-transaction forwarding on Ethereum.",
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "solidity",
+    "meta-transaction",
+    "smart",
+    "contract"
+  ],
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.appswithlove.net/tooling/metatx.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.appswithlove.net/tooling/metatx/-/issues"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.2.3",
+    "bignumber.js": "^9.0.1",
+    "eth-sig-util": "^3.0.1",
+    "ethereumjs-wallet": "^1.0.1",
+    "truffle-plugin-verify": "^0.5.9",
+    "web3": "^1.4.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/test-helpers": "^0.5.12",
+    "eslint": "^7.30.0",
+    "hardhat": "^2.4.0",
+    "solidity-coverage": "^0.7.16"
+  }
+}
